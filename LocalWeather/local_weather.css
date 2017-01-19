@@ -1,0 +1,94 @@
+#location_name {
+	color: rgba(46, 74, 173, 0.68);
+	font-size: 40px;
+	margin: 0px auto;
+}
+
+#current_data {
+	margin: 15px auto;
+	color: rgba(36, 37, 61, 0.94);
+}
+
+#conversion_button_div {
+	margin: 10px auto;
+}
+
+#conversion {
+	width: 200px;
+	height: 30px;
+	margin: 10px auto;
+	font-size: 17px;
+	border-radius: 4px;
+	background-color: rgba(46, 74, 173, 0.68);
+	color: white;
+}
+
+#searchTextField {
+	width: 300px;
+	height: 40px;
+	margin: auto;
+	font-size: 20px;
+	border-radius: 2px;
+	background-color: #f2f2f2; 
+	color: rgba(46, 74, 173, 0.68);
+
+}
+
+#city2, #cityLat, #cityLng {
+	width: 1px;
+}
+
+#autocomplete {
+	font-family: 'Overpass', sans-serif;
+	width: 300px;
+	margin: 80px auto 10px auto;
+}
+
+#search {
+	width: 200px;
+	height: 30px;
+	margin: 15px 54px;
+	font-size: 17px;
+	border-radius: 4px;
+	background-color: rgba(46, 74, 173, 0.68);
+	color: white;
+}
+
+table {
+	width: 100%;
+	margin-top: 0px;
+	border: 2px solid rgba(44, 70, 165, 0.83);
+	text-align: center;
+}
+
+#current_location {
+	width: 1000px;
+	margin-left: 0px;
+}
+
+#location_temp, #location_temp_min, #location_temp_max {
+	margin: 10px auto;
+}
+
+td {
+    padding: 10px;
+    width: 25%;
+    text-shadow: 2px 2px 8px #aab8e9;
+    color: rgba(36, 37, 61, 0.94);
+    font-size: 25px;
+}
+
+body {
+	font-family: 'Overpass', sans-serif;
+}
+
+th {
+	height: 77px;
+	border-bottom: 1px solid #ddd;
+	background-color: rgba(46, 74, 173, 0.68);
+	color: rgba(226, 226, 238, 0.92);
+	font-size: 30px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2};
+
